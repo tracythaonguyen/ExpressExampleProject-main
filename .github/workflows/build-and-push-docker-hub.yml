@@ -32,7 +32,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: bsignbkc/express-sample-project:staging
+          tags: tracythaonguyen/learn-docker:staging
 
   pull-and-up:
     name: Pull new image and re run with the new version
